@@ -65,5 +65,8 @@
     <PackageReference Include="NuGet.Build.Tasks.Pack" Version="5.9.1" />
     <PackageReference Include="Square.OkHttp3" Version="4.9.0" />
   </ItemGroup>
+  <ItemGroup>
+    <JavaSourceJar Include="Jars\android-sdk-2.31.4-sources.jar" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
